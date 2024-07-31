@@ -2,8 +2,8 @@
 
 pipeline{
 
-    agent any
-    //agent { label 'Demo' }
+  
+    agent { label 'my-slave' }
 
     parameters{
 
